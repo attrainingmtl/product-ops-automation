@@ -1,11 +1,11 @@
 Technical Product Operations & Revenue Strategy Portfolio
 Alexander Taylor | PMP (Candidate) | Toronto, ON
-🎯 Executive Summary
+Executive Summary
 Strategic Operations Leader with 10+ years of experience managing $5M+ P&L across technical retail, travel, and wellness sectors. This portfolio demonstrates my transition into Product Operations and Business Intelligence, focusing on bridging the gap between high-level business strategy and technical execution.
 
 I specialize in building AI-driven workflows, automated data pipelines, and functional taxonomies that eliminate operational friction and scale revenue.
 
-🛠 Tech Stack
+Tech Stack
 Languages: Python (Pandas, NumPy, Matplotlib, Regular Expressions)
 
 Data & BI: SQL (BigQuery/PostgreSQL), Google Business Intelligence, Tableau
@@ -14,9 +14,9 @@ Automation: Make.com, Zapier, Shopify API, GenAI Prompt Engineering
 
 Methodology: Agile (Scrum/Kanban), SDLC, PMP Frameworks
 
-🚀 Featured Projects
+Featured Projects
 1. Automated Taxonomy & Data Enrichment Engine
-Business Problem: Managed an omnichannel inventory of 1,000+ technical SKUs where manual tagging led to search friction, poor SEO, and inconsistent UX filters.
+Business Problem: Managed an omnichannel inventory of 1,000+ technical SKUs where manual tagging led to search friction, poor SEO, and inconsistent UX filters. I recognized that our inventory data was unstructured, making it impossible to perform real-time stock analysis. I built a Python engine to programmatically tag 1,000+ SKUs. This allowed me to generate automated Distribution Reports which provided the CEO with instant visibility into our product mix. This ensured our procurement remained aligned with seasonal demand, protecting our 18% profit margins."
 
 The Solution: Developed a Python-based engine using Regex to programmatically extract attributes (Length, Shape, Material) from unstructured product titles.
 
