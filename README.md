@@ -10,7 +10,7 @@ Languages: Python (Pandas, NumPy, Matplotlib, Regular Expressions)
 
 Data & BI: SQL (BigQuery/PostgreSQL), Google Business Intelligence, Tableau
 
-Automation: https://www.google.com/search?q=Make.com, Zapier, Shopify API, GenAI Prompt Engineering
+Automation: Make.com, Zapier, Shopify API, GenAI Prompt Engineering
 
 Methodology: Agile (Scrum/Kanban), SDLC, PMP Frameworks
 
