@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-# 1. Mock Dataset with messy real-world titles
+# 1. Mock shopify Dataset - no longer work for company and have no saved exports :( 
 data = {
     'Product_Name': [
         'Stormblade 8ft Wood Graphic Foamie', 
@@ -28,7 +28,7 @@ def advanced_taxonomy(name):
     # If it's 7ft6, length_val remains 7.
     length_tag = f"{length_val}ft" if length_val else "Unknown"
 
-    # --- 2. Identify Board Type ---
+    # 2. Identify Board Type
     if any(x in name_clean for x in ['foamie', 'soft-top', 'softtop']):
         b_type = 'Foamie/Soft-top'
     elif 'sup' in name_clean:
@@ -36,7 +36,7 @@ def advanced_taxonomy(name):
     else:
         b_type = 'Hardboard'
 
-    # --- 3. Identify Shape ---
+    # 3. Identify Board Shape
     shapes = ['fish', 'funboard', 'shortboard', 'longboard']
     b_shape = 'Other'
     for s in shapes:
@@ -46,7 +46,7 @@ def advanced_taxonomy(name):
             
     return pd.Series([length_tag, b_type, b_shape])
 
-# 2. Execute the engine
+# 2. Execute engine
 df[['Length_Cat', 'Board_Type', 'Shape']] = df['Product_Name'].apply(advanced_taxonomy)
 
 # 3. Final Output
