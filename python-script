@@ -1,6 +1,6 @@
 import pandas as pd
 
-# 1. Create a mini 'mock' dataset (simulating your Shopify export)
+# 1. mini mock Shopify export - (no longer work for company and don't have saved exports :(
 data = {
     'Product_Name': ['O'Neill Mutant', 'Catch Surf Log', 'Rip Curl Flashbomb'],
     'Description': [
@@ -30,7 +30,7 @@ def categorize_product(description):
         
     return pd.Series([category, level])
 
-# 3. Apply the 'Taxonomy Engine' to the dataframe
+# 3. Apply taxonomy logic to dataframe
 df[['Category', 'Skill_Level']] = df['Description'].apply(categorize_product)
 
 # 4. Show the clean result
