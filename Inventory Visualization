@@ -1,14 +1,14 @@
 import matplotlib.pyplot as plt
 
-# 1. Aggregate the data (Counting how many of each shape we have)
+
 # We sort descending so the most important categories are first
 shape_counts = df['Shape'].value_counts().sort_values(ascending=False)
 
-# 2. Create the Bar Chart
+
 plt.figure(figsize=(10, 6))
 shape_counts.plot(kind='bar', color='skyblue', edgecolor='black')
 
-# 3. Add Professional Labeling
+
 plt.title('Inventory Distribution by Board Shape', fontsize=14, fontweight='bold')
 plt.xlabel('Board Shape', fontsize=12)
 plt.ylabel('Total Units (SKUs)', fontsize=12)
@@ -16,6 +16,6 @@ plt.xticks(rotation=45)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 
-# 4. Save for your presentation/portfolio
+
 plt.savefig('inventory_distribution.png')
 print("Business Intelligence Report Generated.")
