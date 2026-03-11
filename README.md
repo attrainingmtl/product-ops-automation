@@ -24,7 +24,8 @@ Technical Highlight: Implemented rounding logic to map fractional measurements (
 
 Business Impact: Eliminated 100+ hours of annual manual data entry and improved search discoverability by an estimated 30%.
 
-View Code & Logic
+* [**Basic Implementation**](inventory_script.py): Initial proof-of-concept using standard string matching for 1,000+ SKUs.
+* [**Advanced Taxonomy Engine**](advanced_taxonomy_engine.py): Enhanced version using **Regular Expressions (Regex)** and numerical rounding logic to programmatically extract attributes like board length and shape.
 
 2. Inventory Distribution & Strategic BI Reporting
 Business Problem: Lack of real-time visibility into product mix made procurement cycles reactive rather than proactive, risking off-season margins.
@@ -35,7 +36,7 @@ Technical Highlight: Utilized matplotlib to generate automated distribution audi
 
 Business Impact: Provided leadership with instant "Gap Analysis" on stock levels, ensuring procurement remained aligned with seasonal demand and protected an 18% profit margin.
 
-View Visualization Script
+* [**View Visualization Script**](inventory_visualization.py): Python script using `Matplotlib` to audit inventory distribution and identify procurement gaps.
 
 3. Revenue-Driven Product Launch: "The Forecasting Clinic"
 Business Problem: Seasonal revenue dips in the surf retail sector during off-peak months.
